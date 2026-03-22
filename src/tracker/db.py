@@ -6,6 +6,7 @@ import sqlite3
 import json
 from datetime import datetime
 from pathlib import Path
+from typing import Optional
 
 DB_PATH = Path(__file__).parent.parent.parent / "data" / "jobs.db"
 
@@ -51,18 +52,19 @@ def upsert_job(job_data: dict):
         INSERT OR IGNORE INTO jobs (
             id, title, company, description, salary_raw, location,
             remote, url, source, funding, domain_tags, score,
-            filter_reasons, status, discovered_at
+            filter_reasons, status, discovered_at, cover_letter
         ) VALUES (
             :id, :title, :company, :description, :salary_raw, :location,
             :remote, :url, :source, :funding, :domain_tags, :score,
-            :filter_reasons, :status, :discovered_at
+            :filter_reasons, :status, :discovered_at, :cover_letter
         )
     """, {
         **job_data,
         "domain_tags": json.dumps(job_data.get("domain_tags", [])),
         "filter_reasons": json.dumps(job_data.get("filter_reasons", [])),
         "discovered_at": datetime.now().isoformat(),
-        "status": "pending_review"
+        "status": job_data.get("status", "pending_review"),
+        "cover_letter": job_data.get("cover_letter", ""),
     })
     conn.commit()
     conn.close()
@@ -103,6 +105,23 @@ def mark_applied(job_id: str, cover_letter: str):
         applied_at=datetime.now().isoformat(),
         cover_letter=cover_letter
     )
+
+
+def get_job_by_id(job_id: str) -> Optional[dict]:
+    conn = get_connection()
+    row = conn.execute("SELECT * FROM jobs WHERE id = ?", (job_id,)).fetchone()
+    conn.close()
+    return dict(row) if row else None
+
+
+def get_approved_jobs() -> list[dict]:
+    """Return approved jobs that haven't been applied to yet, oldest first."""
+    conn = get_connection()
+    rows = conn.execute(
+        "SELECT * FROM jobs WHERE status = 'approved' ORDER BY reviewed_at ASC"
+    ).fetchall()
+    conn.close()
+    return [dict(r) for r in rows]
 
 
 def get_stats() -> dict:
