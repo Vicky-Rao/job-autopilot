@@ -13,6 +13,7 @@ from rich.panel import Panel
 from filter.criteria import Job, filter_job
 from tracker.db import init_db, upsert_job, get_pending_review, get_stats
 from generator.cover_letter import generate_cover_letter
+from exporter import sync
 
 console = Console()
 
@@ -180,6 +181,13 @@ def run_simulation():
         border_style="cyan"
     ))
     console.print("\nRun [bold]python main.py review[/bold] to approve/reject jobs before applying.\n")
+
+    # Step 6: Sync to GitHub dashboard
+    console.print("[bold]Step 6: Syncing state to GitHub...[/bold]")
+    try:
+        sync("bot: simulation run — sync state.json")
+    except Exception as e:
+        console.print(f"[yellow]GitHub sync skipped: {e}[/yellow]")
 
 
 if __name__ == "__main__":
