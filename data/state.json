@@ -1,0 +1,140 @@
+{
+  "last_updated": "2026-03-23T04:31:13.832186",
+  "profile": {
+    "name": "Vicky Rao",
+    "portfolio": "https://vickyrao.vercel.app/",
+    "resume_filename": "VickyRao_Resume.pdf",
+    "email": "vickyrao7024@gmail.com",
+    "linkedin": "https://linkedin.com/in/vicky-rao"
+  },
+  "stats": {
+    "total": 4,
+    "pending_review": 4,
+    "approved": 0,
+    "rejected": 0,
+    "applied": 0
+  },
+  "jobs": [
+    {
+      "id": "sim-001",
+      "title": "Senior Product Designer",
+      "company": "Drift Protocol",
+      "description": "We're building the leading perpetual DEX on Solana. Looking for a Senior Product Designer to own the trading terminal UX, order flow design, and design system. Remote-first team, AI-powered features in roadmap. Series B funded.",
+      "salary_raw": "35-45 LPA",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://jobs.driftprotocol.com/senior-pd",
+      "source": "simulation",
+      "funding": "Series B",
+      "domain_tags": [
+        "defi",
+        "perp",
+        "saas"
+      ],
+      "score": 100,
+      "filter_reasons": [
+        "Role title matches Senior/Lead Product Designer",
+        "Remote position confirmed",
+        "Domain match: perp, dex, perpetual, trading, ai",
+        "Salary 35.0 LPA meets minimum 30.0 LPA",
+        "Funding info: Series B"
+      ],
+      "status": "pending_review",
+      "discovered_at": "2026-03-23T04:12:08.626094",
+      "reviewed_at": null,
+      "applied_at": null,
+      "cover_letter": null,
+      "notes": null
+    },
+    {
+      "id": "sim-002",
+      "title": "Lead UX Designer \u2014 AI Products",
+      "company": "Anthropic",
+      "description": "Design AI-native products at Anthropic. Senior-level role focused on user research, interaction design for LLM interfaces. Remote US only.",
+      "salary_raw": "$180k-$220k",
+      "location": "Remote (US only)",
+      "remote": true,
+      "url": "https://anthropic.com/careers/lead-ux",
+      "source": "simulation",
+      "funding": "Series D",
+      "domain_tags": [
+        "ai"
+      ],
+      "score": 100,
+      "filter_reasons": [
+        "Role title matches Senior/Lead Product Designer",
+        "Remote position confirmed",
+        "Domain match: ai",
+        "Salary 180.0 LPA meets minimum 30.0 LPA",
+        "Funding info: Series D"
+      ],
+      "status": "pending_review",
+      "discovered_at": "2026-03-23T04:12:08.627546",
+      "reviewed_at": null,
+      "applied_at": null,
+      "cover_letter": null,
+      "notes": null
+    },
+    {
+      "id": "sim-004",
+      "title": "Senior Product Designer \u2014 Web3",
+      "company": "Coinbase",
+      "description": "Join Coinbase to design consumer crypto products and DeFi experiences. Senior designer needed for wallet UX, DEX aggregator flows, and NFT marketplace. Fully remote, global.",
+      "salary_raw": "40 LPA",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://coinbase.com/careers/senior-pd",
+      "source": "simulation",
+      "funding": "Public (MNC)",
+      "domain_tags": [
+        "web3",
+        "defi",
+        "crypto"
+      ],
+      "score": 100,
+      "filter_reasons": [
+        "Role title matches Senior/Lead Product Designer",
+        "Remote position confirmed",
+        "Domain match: defi, nft, dex, crypto, web3",
+        "Salary 40.0 LPA meets minimum 30.0 LPA",
+        "Funding info: Public (MNC)"
+      ],
+      "status": "pending_review",
+      "discovered_at": "2026-03-23T04:12:08.628670",
+      "reviewed_at": null,
+      "applied_at": null,
+      "cover_letter": null,
+      "notes": null
+    },
+    {
+      "id": "sim-005",
+      "title": "Product Design Lead \u2014 B2B SaaS",
+      "company": "Linear",
+      "description": "Lead product design at Linear. Own design system, user research, and roadmap for our project management SaaS. AI features being shipped this quarter. Remote-first.",
+      "salary_raw": null,
+      "location": "Remote",
+      "remote": true,
+      "url": "https://linear.app/careers/design-lead",
+      "source": "simulation",
+      "funding": "Series B",
+      "domain_tags": [
+        "saas",
+        "ai"
+      ],
+      "score": 90,
+      "filter_reasons": [
+        "Role title matches Senior/Lead Product Designer",
+        "Remote position confirmed",
+        "Domain match: ai, b2b saas, saas",
+        "Salary not listed \u2014 will assess during application",
+        "Funding info: Series B"
+      ],
+      "status": "pending_review",
+      "discovered_at": "2026-03-23T04:12:08.629951",
+      "reviewed_at": null,
+      "applied_at": null,
+      "cover_letter": null,
+      "notes": null
+    }
+  ]
+}
