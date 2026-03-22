@@ -1,0 +1,11 @@
+anthropic
+playwright
+beautifulsoup4
+requests
+httpx
+selenium-wire
+python-dotenv
+sqlite-utils
+schedule
+pydantic
+rich
