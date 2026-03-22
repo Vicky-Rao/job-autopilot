@@ -1,0 +1,81 @@
+{
+  "name": "Vicky Rao",
+  "title": "Senior Product Designer",
+  "location": "Remote, India (UTC+5:30)",
+  "email": "vickyrao7024@gmail.com",
+  "phone": "+917024598084",
+  "portfolio": "https://vickyrao.vercel.app/",
+  "linkedin": "https://linkedin.com/in/vicky-rao",
+  "years_of_experience": 5,
+  "target": {
+    "role_keywords": ["Senior Product Designer", "Lead Product Designer", "Principal Product Designer"],
+    "domains": ["AI", "DeFi", "Web3", "Crypto", "SaaS", "Fintech"],
+    "salary_min_lpa": 30,
+    "remote_only": true,
+    "company_types": ["well-funded startup", "series-a", "series-b", "series-c", "mnc"]
+  },
+  "summary": "Senior Product Designer with 5+ years of experience building high-stakes financial, crypto, and B2B SaaS products from 0 to 1. Proven track record of shipping a live Perp DEX (zkSync) that achieved $25M volume in 60 days. Expert in designing dense, Bloomberg-style trading terminals, leading brand and design systems, and driving product roadmaps through user research and rapid iteration.",
+  "experience": [
+    {
+      "company": "Reflex",
+      "title": "Senior Product Designer",
+      "period": "Nov 2025 – Present",
+      "type": "Remote, India",
+      "highlights": [
+        "Designed a multi-panel trading terminal for real-time price action, liquidity, and execution signals",
+        "Developed conditional order flow system and gasless execution patterns",
+        "Established scalable design system for real-time market data",
+        "Shipped beta within 12-week timeline"
+      ]
+    },
+    {
+      "company": "RFX Exchange",
+      "title": "Senior Product Designer (Founding Team)",
+      "period": "Oct 2023 – Nov 2025",
+      "type": "Remote, India",
+      "highlights": [
+        "$25M in trading volume within 60 days of launch",
+        "70K+ alpha testnet signups",
+        "Liquidation rates reduced from 12% to 8%",
+        "Stop-loss adoption increased from 22% to 64%",
+        "2.4x improvement in user retention",
+        "Led 0-to-1 product development over 4 months + 18 months iteration"
+      ]
+    },
+    {
+      "company": "Bottleshop",
+      "title": "Founding Product Designer (Contract)",
+      "period": "July 2023 – Aug 2023",
+      "type": "Remote, India",
+      "highlights": [
+        "MVP from concept to production in 8 weeks",
+        "Built component library from scratch",
+        "Defined information architecture and core user flows"
+      ]
+    },
+    {
+      "company": "Rentok",
+      "title": "Founding Product Designer",
+      "period": "May 2022 – Apr 2023",
+      "type": "Remote, India",
+      "highlights": [
+        "50% MoM increase in property manager leads",
+        "25% increase in user engagement",
+        "20% MAU growth via RentPass 2.0 redesign"
+      ]
+    }
+  ],
+  "skills": {
+    "product_design": ["UX Architecture", "Interaction Design", "UI", "Information Architecture", "Wireframing", "Prototyping", "Information-Dense Dashboards"],
+    "domain": ["DeFi", "Crypto", "Perp DEX", "Trading Terminals", "B2B SaaS", "Order Books", "Liquidation Systems", "DEX Aggregators"],
+    "design_systems": ["Component Libraries", "State Modeling", "Cross-Platform Consistency", "Brand Identity", "Visual Systems", "Typography", "Color Systems"],
+    "research": ["Usability Testing", "Trader Interviews", "Metrics Iteration", "Roadmap Prioritization"],
+    "tools": ["Figma", "FigJam", "After Effects", "Framer", "Developer Handoff", "Stakeholder Alignment", "Agile"]
+  },
+  "education": {
+    "degree": "Bachelor of Computer Applications (BCA)",
+    "institution": "Bilaspur University",
+    "period": "2017 – 2020"
+  },
+  "resume_path": "data/resumes/VickyRao_Resume.pdf"
+}
